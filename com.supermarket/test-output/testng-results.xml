@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-22T22:12:00 IST" name="Suite" finished-at="2023-01-22T22:12:29 IST" duration-ms="28276">
+    <groups>
+    </groups>
+    <test started-at="2023-01-22T22:12:00 IST" name="Test" finished-at="2023-01-22T22:12:29 IST" duration-ms="28276">
+      <class name="com.supermarket.tests.ManageDeliveryBoyTest">
+        <test-method is-config="true" signature="createReport(org.testng.ITestContext)[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:00 IST" name="createReport" finished-at="2023-01-22T22:12:00 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ab802f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:00 IST" name="beforeTest" finished-at="2023-01-22T22:12:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:00 IST" name="beforeClass" finished-at="2023-01-22T22:12:08 IST" duration-ms="7481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:08 IST" name="beforeMethod" finished-at="2023-01-22T22:12:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="manageDeliveryLinkClick()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:08 IST" name="manageDeliveryLinkClick" description="navigate to delivery boyPage" finished-at="2023-01-22T22:12:11 IST" duration-ms="3685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageDeliveryLinkClick -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:11 IST" name="afterMethod" finished-at="2023-01-22T22:12:11 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=manageDeliveryLinkClick status=SUCCESS method=ManageDeliveryBoyTest.manageDeliveryLinkClick()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="addDeliveryBoy()[pri:1, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:11 IST" name="addDeliveryBoy" description="create new deliveryboy" finished-at="2023-01-22T22:12:17 IST" duration-ms="5594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDeliveryBoy -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:11 IST" name="beforeMethod" finished-at="2023-01-22T22:12:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:17 IST" name="afterMethod" finished-at="2023-01-22T22:12:17 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addDeliveryBoy status=SUCCESS method=ManageDeliveryBoyTest.addDeliveryBoy()[pri:1, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:17 IST" name="beforeMethod" finished-at="2023-01-22T22:12:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchDeliveryBoy()[pri:2, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:17 IST" name="searchDeliveryBoy" description="search deliveryboy" finished-at="2023-01-22T22:12:18 IST" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDeliveryBoy -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:18 IST" name="afterMethod" finished-at="2023-01-22T22:12:18 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchDeliveryBoy status=SUCCESS method=ManageDeliveryBoyTest.searchDeliveryBoy()[pri:2, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="editDeliveryBoy()[pri:3, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:18 IST" name="editDeliveryBoy" description="edit the deliveryboy" finished-at="2023-01-22T22:12:25 IST" duration-ms="7342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editDeliveryBoy -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:18 IST" name="beforeMethod" finished-at="2023-01-22T22:12:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:25 IST" name="afterMethod" finished-at="2023-01-22T22:12:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editDeliveryBoy status=SUCCESS method=ManageDeliveryBoyTest.editDeliveryBoy()[pri:3, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="deleteDeliveryBoy()[pri:4, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:25 IST" name="deleteDeliveryBoy" description="delete the deliveryboy details" finished-at="2023-01-22T22:12:28 IST" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDeliveryBoy -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:25 IST" name="beforeMethod" finished-at="2023-01-22T22:12:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:28 IST" name="afterMethod" finished-at="2023-01-22T22:12:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteDeliveryBoy status=SUCCESS method=ManageDeliveryBoyTest.deleteDeliveryBoy()[pri:4, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="navigateBackToHome()[pri:5, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:28 IST" name="navigateBackToHome" description="navigate to DashBoard" finished-at="2023-01-22T22:12:29 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBackToHome -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:28 IST" name="beforeMethod" finished-at="2023-01-22T22:12:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:29 IST" name="afterMethod" finished-at="2023-01-22T22:12:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateBackToHome status=SUCCESS method=ManageDeliveryBoyTest.navigateBackToHome()[pri:5, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:29 IST" name="afterClass" finished-at="2023-01-22T22:12:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:29 IST" name="afterTest" finished-at="2023-01-22T22:12:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.supermarket.tests.ManageDeliveryBoyTest@6e0f5f7f]" started-at="2023-01-22T22:12:29 IST" name="afterSuite" finished-at="2023-01-22T22:12:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.supermarket.tests.ManageDeliveryBoyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
