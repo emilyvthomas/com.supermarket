@@ -38,10 +38,7 @@ public class MobileSliderTest extends BaseClass{
      filepload=new FileUploadUtility();
      filepload.uploadFile(mbsldr.choosefiledrop,Constants.path);
      general.clickCommand(mbsldr.savebtn);
-    //general.clickCommand(mbsldr.cancelbtn);
-     
-     //Assert.assertEquals(mbsldr.alertmsg, Constants.mobliesideralertmsg);
-     Assert.assertTrue(mbsldr.isalertmsgDisplayed());
+         Assert.assertTrue(mbsldr.isalertmsgDisplayed());
 	  
      }
 
