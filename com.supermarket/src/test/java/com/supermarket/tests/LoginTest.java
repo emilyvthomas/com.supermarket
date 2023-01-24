@@ -25,7 +25,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class LoginTest extends BaseClass {
 	ThreadLocal<ExtentTest> extentTest = TestListener.getTestInstance();
 	LoginPage lpobj;
-	//String url="https://groceryapp.uniqassosiates.com/admin/login";
+
   @Test(priority=2, retryAnalyzer=RetryAnalyzerUtility.class)
   public void loginwithvalidcredentials() throws IOException {
 	ExcelUtility exobj=new ExcelUtility();
@@ -33,12 +33,11 @@ public class LoginTest extends BaseClass {
 	lpobj.clearDetails();
 	lpobj.login(exobj.readStringData(1, 0), exobj.readStringData(1, 1));
 	Assert.assertTrue(lpobj.isDisplayedDashboard());
-	//lpobj.moreInfo();
+	
 	}
   
   @Test(dataProvider="loginData",dataProviderClass=DataProviderUtility.class,priority=1)
   public void loginWithInvalidCredentials(String username,String password) throws IOException {
-	//ExcelUtility exobj=new ExcelUtility();
 	lpobj=new LoginPage(driver);
 	lpobj.clearDetails();
 	lpobj.login(username,password);
