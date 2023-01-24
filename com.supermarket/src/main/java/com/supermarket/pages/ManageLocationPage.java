@@ -40,7 +40,7 @@ public
 WebElement cancelbtn;
 @FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
 WebElement alerttext;
-//a[@class='btn btn-sm btn btn-primary btncss']
+
 @FindBy(xpath="//a[@class='btn btn-sm btn btn-primary btncss']")
 public
 WebElement editbtn;
@@ -80,9 +80,7 @@ WebElement resetsearch;
     	
     	gu.clickCommand(manageloc);
     	gu.clickCommand(newbtn);
-//	       manageloc.click();
-//	       newbtn.click();
-	
+
           }
      public String locationAndDeliverdata() throws Exception {
     	 
@@ -93,13 +91,7 @@ WebElement resetsearch;
     	 String val=gu.getText(alerttext);
     	 driver.navigate().back();
     	 return val;
-//             location.sendKeys("Manchester");
-// 	         delivery.sendKeys("1090");
-// 	         Thread.sleep(2000);
-//             savebtn.click();
-// 	         return alerttext.getText();
- 	         
- 
+
           }
      public String edit() throws InterruptedException, IOException {
     	 
@@ -113,17 +105,7 @@ WebElement resetsearch;
     	 Thread.sleep(2000);
     	 gu.clickCommand(updatebtn);
     	 return gu.getText(editalert);
-//    	 editbtn.click();
-//    	 location.clear();
-//    	 location.sendKeys("Liverpool");
-//    	 delivery.clear();
-//    	 delivery.sendKeys("2000");
-//    	 gu.scrollUptoDown(driver);
-//    	 Thread.sleep(2000);
-//    	 updatebtn.click();
-//    	 return editalert.getText();
-    	 
-    	 
+	 
      }
      public boolean isDisplayed()
  	{
@@ -140,16 +122,9 @@ WebElement resetsearch;
     	 Thread.sleep(1000);
     	 return gu.getText(newlocation);
     	 
-//  		 search.click();
-//    	 locationinput.sendKeys("United Kingdom");
-//  		searchbtnclick.click();
-//  		Thread.sleep(1000);
-//        String value=newlocation.getText();
-//        return value;
+
   	}
   	public String deleteItem() {
-//  		gu.clickCommand(delete);
-//  		delete.click();
   		gu.alertAccept(driver);
   		return gu.getText(deletealert);
   	}

@@ -77,10 +77,7 @@ public class ManageOrderPage {
 	   general.clickCommand(manageorder);
 	   general.clickCommand(view);
 	   general.clickCommand(back);
-//	   manageorder.click();
-//	   view.click();
-//	   back.click();	
-	  
+
    }
    public String changeStatus() throws IOException {
 	   
@@ -90,8 +87,7 @@ public class ManageOrderPage {
 	   driver.navigate().back();
 	   String updateValue=general.getText(Value);
 		return updateValue;
-		
-	   //changestatus.click();
+	
    }
    public String assignDeliveryBoy() throws IOException
    {
@@ -114,11 +110,7 @@ public class ManageOrderPage {
 	   general.clickCommand(search);
 	   general.sendkeysCommand(order, exobj.readIntegerData(47, 1));
 	   general.clickCommand(searchOrder);
-	 //  general.clickCommand(resetOrder);
-//	   search.click();
-//	   order.sendKeys("335");
-//	   searchOrder.click();
-//	   resetOrder.click();
+
 	   general.scrollUptoDown(driver);
 	   String searchValue=general.getText(searchvalue);
 	   return searchValue;
@@ -127,8 +119,6 @@ public class ManageOrderPage {
    public void scroll()
    {
    	general.scrollUptoDown(driver);
-   	//general.scrollUp(driver);
-   	
    }
    public void navigateBackHome()
    {

@@ -53,25 +53,19 @@ WebElement home;
   public void create() {
 	  general.clickCommand(mobileslider);
 	  general.clickCommand(newbtn);
-//	  mobileslider.click();
-//	  newbtn.click();  
   }
 
   public void edit() {
-	   //general.clickCommand(home);
-	  driver.navigate().back();
+	    driver.navigate().back();
 	  general.clickCommand(cancelbtn);
 	  general.clickCommand(editbtn);
-	   //editbtn.click();
-	   general.selectByVisibleText(categorydrop, Constants.catchangedrop);
+	    general.selectByVisibleText(categorydrop, Constants.catchangedrop);
        filepload.uploadFile(choosefiledrop,Constants.path);
 	   general.clickCommand(updatebtn);
 	  
   }
   
   public String delete() {
-	  //deletebtn.click();
-	  
 	  general.clickCommand(deletebtn);
 	  general.alertAccept(driver);
 		String deleteValue=general.getText(deletealertmsg);

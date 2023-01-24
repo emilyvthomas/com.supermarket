@@ -33,8 +33,7 @@ public class ExcelUtility {
 		Row r= s.getRow(row);
 		Cell c=r.getCell(column);
 		int a= (int) c.getNumericCellValue();  
-		return String.valueOf(a);         // converting integer value to string
-		
+		return String.valueOf(a);         
 	}
 				
 				

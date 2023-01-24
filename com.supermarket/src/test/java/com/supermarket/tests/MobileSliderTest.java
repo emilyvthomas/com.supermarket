@@ -55,8 +55,7 @@ public class MobileSliderTest extends BaseClass{
    public void deleteItem() {
 	mbsldr=new MobileSliderPage(driver);
 	mbsldr.delete();
-//	general=new GeneralUtilities();
-//	general.alertAccept(driver);
+
 	Assert.assertTrue(mbsldr.isdeletealertmsgDisplayed());
 	 
 }
