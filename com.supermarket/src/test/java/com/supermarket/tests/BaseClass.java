@@ -38,7 +38,8 @@ public class BaseClass {
 @BeforeMethod
 public void beforeMethod() 
 {
-	  }
+	 
+}
  @AfterMethod(alwaysRun=true)
  public void afterMethod(ITestResult result) throws IOException
  {
@@ -54,7 +55,7 @@ public void beforeMethod()
   public void beforeClass(String browser) throws IOException
   {
 	  
-		//since we created a class for calling the webdriver  
+		
 		  testBasic();
 		  driver=guobj.browserLaunch(p.getProperty("URL"),browser);
   
@@ -62,7 +63,7 @@ public void beforeMethod()
 
   @AfterClass
   public void afterClass() {
-	  //driver.close();
+	  driver.close();
   }
 
   @BeforeTest
