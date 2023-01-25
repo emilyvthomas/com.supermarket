@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Date;
+import java.util.List;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -133,7 +134,25 @@ public void simpleAlerts(WebDriver driver) {
 	  alert.accept();
 
 }
-
+public boolean dynamicWebTableData(List<WebElement> colval,String value)
+{
+	boolean status=false;
+	for(WebElement element:colval)
+	{
+		String value1=element.getText();
+		if(value1.contains(value))
+		{
+			status=true;
+			break;
+		}
+	}
+		
+	
+	
+	
+	return status;
+	
+}
 public void scrollUp(WebDriver driver) {
 	  JavascriptExecutor js=(JavascriptExecutor)driver;
 	  js.executeScript("window.scrollBy(0,1000)");
