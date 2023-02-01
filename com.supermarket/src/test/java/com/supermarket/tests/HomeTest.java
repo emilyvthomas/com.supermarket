@@ -23,7 +23,7 @@ public class HomeTest extends BaseClass {
 	LoginPage login;
 	ManageUserPage muser;
 	HomePage hmobj;
-  @Test(description="navigate To Manage DeliverBoy Page")
+  @Test(description="navigate To Manage DeliverBoy Page",groups="sanity")
   public void navigateToManageDeliverBoy() throws IOException {
 	 
 	  hmobj=new HomePage(driver);
@@ -51,11 +51,11 @@ public class HomeTest extends BaseClass {
 	  hmobj.navigateToHomePage();
 		 
   }
-  @Test(description="navigate To Manage Location Page")
+  @Test(description="navigate To Manage Location Page",groups="sanity")
   public void navigateToManageLocation() {
 	  hmobj=new HomePage(driver);
 	  hmobj.navigateToManageLocation();;
-	 // Assert.assertEquals(hmobj.navigateToManageOrder(), Constants.title3);
+	 
 	  Assert.assertEquals(hmobj.getLocationPageTitle(),Constants.title4);
 	  hmobj.navigateToHomePage();
 		 
