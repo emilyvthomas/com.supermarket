@@ -28,7 +28,7 @@ public class HomePage {
 	WebElement manageLocationLink;
 	
 	@FindBy(xpath="//a[@href='https://groceryapp.uniqassosiates.com/admin/list-news']")
-	WebElement maanageNewsLink;
+	WebElement manageNewsLink;
 	
 	@FindBy(xpath="//h1[@class='m-0 text-dark']")
 	WebElement userTitle;
@@ -63,7 +63,7 @@ public class HomePage {
 	
 	public void navigateToManageNewsPage()
 	{
-		gu.clickCommand(maanageNewsLink);
+		gu.clickCommand(manageNewsLink);
 	}
 	
 	
