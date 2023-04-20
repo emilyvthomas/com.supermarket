@@ -14,6 +14,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
@@ -34,7 +35,11 @@ public WebDriver browserLaunch(String url,String browser)
 	}
 	else if(browser.equalsIgnoreCase("chrome")) {
 		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+		
+		
+		ChromeOptions co=new ChromeOptions();
+		co.addArguments("--remote-allow-origins=*");
+		driver=new ChromeDriver(co);
 	}
 	else
 	{
